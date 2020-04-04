@@ -1,0 +1,248 @@
+/*******************
+ mis clases
+*******************/
+
+div.textcontent, div.result
+{
+	margin: 20px;
+	text-align:justify
+}
+
+div.result div.toeval
+{
+	border:1px ;
+	border-radius:8px;
+	border-style:solid;
+	padding:0px 0px;
+	border-color:red;
+	margin:3px;
+}
+
+opinion
+{
+	color:black;
+	border:1px ;
+	border-radius:8px;
+	line-height:20px;
+	padding:0px 2px;
+	/*background-color:rgb(255, 255, 0);	*/
+	background-color:rgb(238, 238, 224);
+}
+
+
+div.title{
+	color: #0084b4;
+	letter-spacing: -1px;	
+	font-size: 1.47em;
+	padding:10px 20px;
+}
+
+
+/*******************
+Twiter
+*******************/
+
+
+#tweet_title{
+color: #0084b4;
+
+}
+#tweet_autor{
+font-weight: bold;
+color: #333333;
+}
+#selected
+{
+	background-color: #fbff5e;
+	color: black;
+}
+#tweet_contents{
+padding: 19px 0px;
+}
+
+#tweet_contents .trespositif{
+	background-color: #b8ff90;	
+	border-radius:5px;
+}
+.trespositif
+{
+	background-color: #b8ff90;	
+	border-radius:5px;
+}
+
+#tweet_contents .tresnegatif
+{
+	background-color: #f7777a;
+	border-radius:5px;
+}
+
+.tresnegatif
+{
+	background-color: #f7777a;
+	border-radius:5px;
+}
+
+#tweet_contents .neutre
+{
+	background-color: #cccccc;
+	border-radius:5px;
+}
+
+.neutre
+{
+	background-color: #cccccc;
+	border-radius:5px;
+}
+
+
+#cible
+{
+	width:90%;
+	margin:5px 2px;
+	padding: 2px 0px;
+	float:none;
+}
+
+#superscript{font-size:xx-small; vertical-align:top;} 
+#subscript{font-size:xx-small; vertical-align:bottom;} 
+
+/*******************
+Esquelet  html
+*******************/
+body, html
+{
+background:#e6e6e6;
+margin:0;
+padding:0;
+color: black;
+font:normal normal normal 13px/normal arial, sans-serif;
+}
+h1, h2, h3, h4, h5, h6, a {
+    text-rendering: optimizelegibility;
+    margin:0;
+    padding:0;
+}
+#wrap
+{
+background:white ;
+width: 90%;
+margin:0 auto;
+}
+
+#leftside
+{
+/*background:#9c9;*/
+min-width: 80px;
+                    
+float: left;
+                    
+text-align: center;
+                    
+width: 20%;
+}
+#centerside
+{
+float: left;
+text-align: justify;
+
+width: 60%;
+}
+#rightside
+{
+/*background:#c9c;*/
+                    
+                    
+                    
+float: left;
+                    
+                    
+                    
+                    
+text-align: right;
+width: 10%;
+}
+
+#header 
+{
+padding-left: 2px;
+padding-bottom: 2px;
+padding-right: 2px;
+padding-top: 2px;
+color: #DD4B39;
+background:whiteSmoke;
+font-size:12px;
+}
+
+#footer 
+{
+background:whiteSmoke;
+font:normal normal normal 11px/normal arial, sans-serif;
+color: #2f69c9;
+clear:both;
+}
+
+#footer ul
+{
+margin:0;
+padding:0;
+list-style:none;
+}
+#footer li
+{
+display:inline;
+margin:0;
+padding:12px 20px;
+}
+
+
+#nav
+{
+/*background:#c99;*/
+padding:6px 6px;
+}
+#nav ul
+{
+margin:0;
+padding:0;
+list-style:none;
+}
+#labels ul
+{
+margin:0;
+padding:0;
+list-style:none;
+}
+#labels li
+{
+margin:0;
+padding:12px 20px;
+
+}
+
+#nav li
+{
+display:inline;
+margin:0;
+padding:12px 20px;
+}
+
+#logodiv
+{
+
+	height: auto;
+
+	width: auto;
+
+	float: right;
+
+	position: relative;
+
+}
+#imglogo
+{
+	
+	max-height: 100px;
+	
+	max-width: 100px;
+	
+}

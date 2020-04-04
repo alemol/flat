@@ -1,0 +1,6222 @@
+
+
+**LOG**
+
+json string OK dump :
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+
+
+**LOG**
+
+json string OK dump :
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+
+
+**LOG**
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [as] => Mon opinion
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+
+**SESSION**: user=admin , id=1, nextsource=1 
+
+json string OK dump :
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+server POST request
+json string OK dump :
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+server POST request
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [as] => ozy ne trait
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+*server POST request*
+json string OK dump :
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+
+*server POST request*
+json string OK dump :
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+
+*server POST request*
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [as] =>  sur E
+        )
+
+    [negatif] => Array
+        (
+            [jhgf] =>  maitri
+        )
+
+)
+
+
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [bb] => coude
+            [lhj] => Sarkozy
+        )
+
+    [negatif] => Array
+        (
+            [ash] => llement aprés avoir hésité dans la bataille violente de l'entre deux tours, je décide de renouveler ma confianc
+            [m] => pouvons
+            [ñlj] => familliale
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [Nico] => sonnellement aprés avoir hésité
+        )
+
+    [negatif] => Array
+        (
+            [Toto] =>  l'excellente interview
+            [Nous] => ne pouvons
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [po] => s pas prendre le
+        )
+
+    [negatif] => Array
+        (
+            [neg] =>  Nicolas Sarkozy. Mon
+        )
+
+    [neutre] => Array
+        (
+            [n] => coude à coude
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [sarko] => Personnellement aprés avoir hésité dans la bataille violente de l'entre deux tours, je décide de renouveler ma confiance à Nicolas Sarkozy
+        )
+
+    [negatif] => Array
+        (
+            [holanda] => Nous avons
+        )
+
+    [neutre] => Array
+        (
+            [aucune] => Les candidats seront au coude à coude
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [dfqfdsqf] => s seront 
+        )
+
+    [negatif] => Array
+        (
+        )
+
+    [neutre] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] =>  avons 
+        )
+
+    [negatif] => Array
+        (
+        )
+
+    [neutre] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => Personnellement
+        )
+
+    [neutre] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => Personnellement
+        )
+
+    [neutre] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => confiance 
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => e renouve
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => e pouvons p
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => sonnellement
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => sonnel
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => olas Sarkoz
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => ment aprés 
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => oin d'une Fra
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => une France
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => dans la batail
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => Personnellement
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => in d'une
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => s Sarkoz
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => nt aprés 
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => aprés
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => ns pas pr
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => avoir hésité 
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => ma conf
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] =>  renouv
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => nelle
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => 
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => vons besoin 
+        )
+
+)
+
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [EUROPE 1] => Personnellement aprés avoir hésité dans la bataille violente de l'entre deux tours, je décide de renouveler ma confiance à Nicolas Sarkozy. Mon opinion a basculé grace à l'excellente interview de ce matin sur EUROPE 1.
+        )
+
+    [negatif] => Array
+        (
+            [Nous] => Nous
+            [] => avons besoin d'une France forte face à la crise
+        )
+
+)
+
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => maitrise bien l'anglais
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 29
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 29
+result OK
+
+*server POST request*
+src_Id OK = 29
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 29
+result OK
+
+*server POST request*
+src_Id OK = 2
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 2
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 8
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 8
+result OK
+
+*server POST request*
+src_Id OK = 2
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 2
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+**SESSION OPEN**: user=admin , id=1, nextsource=1 
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 9
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 9
+result OK
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => es autres chefs d'E
+        )
+
+    [negatif] => Array
+        (
+            [] => candidats seront au coude à coude. Personnellement aprés avoir hésité dans la bataille violente de l'entre deux tours, je décide de renouveler ma confiance à Nicolas Sarkozy. Mon opinion a basculé grace à l'excellente interview de ce matin sur EUROPE 1. Nous avons besoin d'une France forte face à la crise Nous devons réduire nos déficits Nous ne pouvons pas prendre le risque de nous retrouver comme l'Espagne ou la Grece. Mr Sarkozy ne traite pas les électeurs du FN de pestiférés mais ne fait pas crédit à l'entreprise familliale Le Pen L
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => fiance à Nicolas Sarkozy. Mon opinion a basculé grace à l'excellente interview de ce matin sur EUROPE 1. Nous avons besoin d'une France forte face à la crise Nous devons réduire nos défic
+        )
+
+    [negatif] => Array
+        (
+            [] => its Nous ne pouvons pas prendre le risque de nous retrouver comme l'Espagne ou la Grece. Mr Sarkozy ne traite pas les électeurs du FN de pestiférés mais ne fait pas crédit à l'entreprise familli
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Conectado a BD OK
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+        )
+
+    [negatif] => Array
+        (
+            [] => e de l'entre deux tours, je décide de renouveler ma confiance à Nicolas Sarkozy. Mon opinion a basculé grace à l'excellente interview de ce matin sur EUROPE 1. Nous avons besoin d'une France forte face à la crise Nous devons réduire nos déficits Nous ne pouvons pas prendre le risque de nous retrouver comme l'Espagne
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :Array
+(
+    [positif] => Array
+        (
+            [] => d'une France forte face à
+        )
+
+    [negatif] => Array
+        (
+            [as] => ouver comm
+        )
+
+)
+
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
+
+*server POST request*
+src_Id OK = 1
+Query=SELECT * FROM tweets WHERE tweet_id = 1
+result OK
+sending to client
+
+json string OK dump :
+
