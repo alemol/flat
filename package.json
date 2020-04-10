@@ -1,0 +1,31 @@
+{
+  "name": "pruebaservidor",
+  "version": "1.0.0",
+  "description": "Proyecto para hacer pruebs en un servidor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreddyMc/PruebasServidor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreddyMc/PruebasServidor/issues"
+  },
+  "homepage": "https://github.com/FreddyMc/PruebasServidor#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+
+"devDependencies": {
+  "nodemon": "^2.0.3"
+}
+}
