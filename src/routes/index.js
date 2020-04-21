@@ -2,7 +2,7 @@ const express = require('express');
 const router=express.Router();
 
 router.get('/',(req,res)=>{
-    res.send('Pendente renderizado de principal');
+    res.render('index');
 });
  
 /* 
