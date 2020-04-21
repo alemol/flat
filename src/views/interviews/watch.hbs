@@ -1,0 +1,65 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col">
+        <textarea id="texto_html" cols="80" rows="50">{{interview.content}}</textarea> 
+    </div>
+    <div class="col-md-4 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    <form action="/tags/add" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="title" placeholder="Title" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="contents" class="form-control"  rows="2" placeholder="content" id="resultado"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="anotations" placeholder="anotations" >
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-success btn-block">
+                                Save
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+function obtener_textarea(){
+  return document.getElementById("texto_html")
+}
+function obtener_área_resultado(){
+  return document.getElementById("resultado")
+}
+function procesar_selección(texto,inicio_selección,fin_selección)
+{
+  var fin_texto = texto.length
+
+  var inicio = texto.slice(0               ,inicio_selección)
+  var centro = texto.slice(inicio_selección,fin_selección   )
+  var fin    = texto.slice(fin_selección   ,fin_texto       )
+  return centro
+}
+function procesar_selección_html()
+{
+  var área_texto = obtener_textarea()
+
+  var texto  = área_texto.value
+  var inicio = área_texto.selectionStart
+  var fin    = área_texto.selectionEnd
+
+  obtener_área_resultado().innerHTML=procesar_selección(texto,inicio,fin)
+}
+function agregar_eventos(elemento_html){
+  var eventos = ["keyup","keydown","mousedown","mouseup","mousemove"]
+  for(var i in eventos){
+    elemento_html.addEventListener( eventos[i], procesar_selección_html )
+  }
+}
+agregar_eventos( obtener_textarea() )
+</script>

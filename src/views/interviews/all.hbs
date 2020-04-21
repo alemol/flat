@@ -1,0 +1,29 @@
+<div class="container p-4">
+    <div class="row">
+        {{#each Interviews}}
+        <div class="col-md-3">
+            <div class="card text-center">
+                <div class="card-body">
+                    <a href="/interviews/watch/{{idInterview}}">
+                        <h3 class="card-title text-uppercase">
+                            Interview {{idInterview}}
+                        </h3>
+                    </a>
+                    <p class="m-2"><span>subject:</span>{{idSubject}}<br><span>interviewer:</span>{{idInterviewer}}</p>
+                    <p class="m-2">{{date}}</p>
+                    <a href="interviews/delete/{{id}}" class="btn btn-danger">Delete</a>
+                    <a href="interviews/edit{{id}}" class="btn btn-secondary">Edit</a>
+                </div>
+            </div>
+        </div>
+        {{else}}
+            <div class="col-md-4 mx-auto">
+                <div class="card cardbody text-center">
+                    <p>There are no interviewa saved yet</p>
+                    <a href="interviews/add">Create one!</a> 
+                </div>
+            </div>
+        {{/each}}
+
+    </div>
+</div>
