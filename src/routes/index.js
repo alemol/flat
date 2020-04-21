@@ -10,4 +10,5 @@ router.get('/contact.html',(req,res)=>{
     res.render('contact.html',{title:'contact page'});
 }); */
 
+
 module.exports = router; 
