@@ -16,7 +16,9 @@ pool.getConnection((err,conection)=>{
         if(err.code === 'ER'){
             console.error('database has to many conections');
         } 
-        /*bla bla bla */
+        if(err.code.includes('ER')){
+            console.log('Unknown error');
+        }
     }
     if(conection) conection.release();
     console.log('DB is conected');
