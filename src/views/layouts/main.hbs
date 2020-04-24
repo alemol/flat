@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free tag manager</title>
+    <!-- My styles -->
+    <link rel="stylesheet" href="/css/styles.css">
     {{!-- Google font --}}
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
     {{!-- BOOOTSTRAP 4 --}}
@@ -12,9 +14,7 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Fon awsome -->
     <script src="https://kit.fontawesome.com/77e10f5dab.js" crossorigin="anonymous"></script>
-    <!-- My styles -->
-    <link rel="stylesheet" href="/css/styles.css">
-
+    
 </head>
 
 <body>
@@ -25,7 +25,9 @@
     {{#if success}}
         {{> messages}}
     {{/if}}
-    {{{ body }}}
+    <div class="d-block">
+        {{{ body }}}
+    </div>
 
     {{!-- scripts --}}
 
