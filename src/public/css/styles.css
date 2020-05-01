@@ -17,6 +17,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.textInterview{
-    
-}
+.textarea {
+    background-color: #ffffff;
+    overflow:auto;
+    margin-bottom: 15px;
+    }

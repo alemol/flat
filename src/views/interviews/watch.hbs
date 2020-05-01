@@ -1,9 +1,15 @@
 <div class="container d-block">
-  <div class="row mt-">
+  <div class="row mt-4">
     <div class="col">
       <div class="card">
         <h3 class="text-center p-4">Interview {{idInterview}}</h3>
-        <textarea id="text_html" cols="80" rows="50">{{interview}}</textarea>
+      </div>
+      <div class="card" id="contTextArea">
+        <div id= "text_html">
+        {{#each interview as |portion|}}
+        <span name="portion">{{portion}}</span><br>
+        {{/each}}
+        </div>
       </div>
     </div>
     <div class="col col-lg-4">
@@ -31,19 +37,16 @@
             <button class="btn btn-success">
               Save
             </button>
-
+          </form>
         </div>
-        </form>
-        <div class="form-group"  id="addColor">
+
+        <div class="form-group" id="addColor">
           <button>Tag</button>
         </div>
       </div>
     </div>
   </div>
 </div>
-</div>
-<div>
 
-</div>
 <script src="/scripts/interviews/all.js">
 </script>
