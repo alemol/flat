@@ -2,7 +2,7 @@
   <div class="row mt-">
     <div class="col">
       <div class="card">
-        <h3 class="text-center p-4">Interview {{idInterview}}</h3>     
+        <h3 class="text-center p-4">Interview {{idInterview}}</h3>
         <textarea id="text_html" cols="80" rows="50">{{interview}}</textarea>
       </div>
     </div>
@@ -24,24 +24,26 @@
             </div>
             <div class="form-group">
               <label for="selectedColor">Proximo color de etiqueta</label>
-              <input type="color" name="selectedColor" id="selectedColor" class="form-control" placeholder="#ff0000" aria-describedby="ariaColor" value="#ff0000">
+              <input type="color" name="selectedColor" id="selectedColor" class="form-control" placeholder="#ff0000"
+                aria-describedby="ariaColor" value="#ff0000">
               <small id="ariaColor" class="text-muted">#ff0000</small>
             </div>
-              <button disabled="disabled" class="btn btn-success btn-block" >
-                Save
-              </button>
-              
-            </div>
-          </form>
+            <button class="btn btn-success">
+              Save
+            </button>
 
+        </div>
+        </form>
+        <div class="form-group"  id="addColor">
+          <button>Tag</button>
         </div>
       </div>
     </div>
   </div>
 </div>
+</div>
 <div>
 
 </div>
-<script src=""></script>
 <script src="/scripts/interviews/all.js">
 </script>

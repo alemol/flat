@@ -6,6 +6,12 @@ function getTextArea(){
 function getResultArea(){
   return document.getElementById("result");
 }
+function getButton(){
+  return document.getElementById('addColor');
+}
+function getColor(){
+  return document.getElementById("selectedColor");
+}
 function processSelectedText(pElementHtml,pStarts,pEnds)
 {
     return pElementHtml.slice(pStarts,pEnds);  
@@ -13,14 +19,26 @@ function processSelectedText(pElementHtml,pStarts,pEnds)
 function getSelectedText()
 {
   var textArea = getTextArea();
-  var inicio = textArea.selectionStart;
-  var fin    = textArea.selectionEnd;
-  getResultArea().innerHTML=processSelectedText(textArea.value,inicio,fin);
+  var start = textArea.selectionStart;
+  var end    = textArea.selectionEnd;
+  getResultArea().innerHTML=processSelectedText(textArea.value,start,end);
 }
-function addEvents(elemento_html){
+function reProcessText()
+{
+  alert('presionado');
+  var actualText = getTextArea().value;
+  var selectedText = getResultArea().value;
+  var newText = actualText.replace(selectedText,'<span style="color:' + getColor().value +'">' + selectedText + '</span>');
+  getTextArea().innerHTML = newText;
+}
+function addEvents(html_textArea,html_Button){
   var eventos = ["keyup","keydown","mousedown","mouseup","mousemove"];
   for(var i in eventos){
-    elemento_html.addEventListener( eventos[i], getSelectedText);
+    html_textArea.addEventListener( eventos[i], getSelectedText);
   }
+  console.log(html_Button);
+  html_Button.addEventListener("click",reProcessText)
 }
-addEvents(getTextArea());
+
+
+addEvents(getTextArea(),getButton());
