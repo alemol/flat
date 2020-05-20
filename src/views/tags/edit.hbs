@@ -3,15 +3,14 @@
         <div class="col-md-4 mx-auto">
             <div class="card">
                 <div class="card-body">
-                    <form action="/tags/edit/{{tag.id}}" method="POST">
+                    <form action="/tags/edit/{{tag.id_cat_tag}}" method="POST">
                         <div class="form-group">
                             <input type="text" value="{{tag.title}}" class="form-control" name="title" placeholder="Title" autofocus>
                         </div>
                         <div class="form-group">
-                            <textarea name="contents"  class="form-control"  rows="2" placeholder="content">{{tag.contents}}</textarea>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" value="{{tag.anotations}}"  class="form-control" name="anotations" placeholder="anotations" >
+                            <label for="selectedColor">Label color</label>
+                            <input type="color" name="color" id="selectedColor" class="form-control"
+                                value="{{tag.color}}">
                         </div>
                         <div class="form-group">
                             <button class="btn btn-success btn-block">

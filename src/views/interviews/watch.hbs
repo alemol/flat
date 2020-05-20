@@ -2,49 +2,78 @@
   <div class="row mt-4">
     <div class="col">
       <div class="card">
-        <h3 class="text-center p-4">Interview {{idInterview}}</h3>
+        <h3 class="text-center p-4">Interview <span id='IdItrviewHolder'>{{idInterview}}</span></h3>
       </div>
       <div class="card" id="contTextArea">
         <div id="text_html" class="yellow">
           {{#each interview as |portion|}}
-          <span class="yellow" name="{{portion.person}}" id="line{{portion.line}}">{{portion.person}}: {{portion.content}}</span><br>
+          <span class="yellow" name="{{portion.person}}" id="line{{portion.line}}">{{portion.person}}:
+            {{portion.content}}</span><br>
           {{/each}}
         </div>
       </div>
     </div>
     <div class="col col-lg-4">
-      <div class="card">
-        <div class="card-body">
-          <div>
-            <h3 class="text-center p-3">Add new tag</h3>
+      <div class="row">
+
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <h3 class="text-center p-3">Add new tag</h3>
+            </div>
+            <form action="/interviews/addtag" method="POST" id="frmAddTagMenu">
+              <div class="form-group">
+                <label for="optCategory">Select category</label>
+                <select class="custom-select" name="optCategory" id="optCategory">
+                  <option selected value="add new">Add new</option>
+                  {{#each categories as |category|}}
+                  <option value="{{category.color}}">{{category.title}}</option>
+                  {{/each}}
+
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea name="contents" class="form-control" rows="2" placeholder="content" id="result"></textarea>
+              </div>
+              <div class="form-group" id="ctrTitle"><input type="text" class="form-control" id="inpTitle" placeholder="Title"></div>
+              <div class="form-group">
+                <label for="selectedColor">Proximo color de etiqueta</label>
+                <input type="color" name="selectedColor" id="selectedColor" class="form-control" value="#ffffff" >
+              </div>
+              <div class="btn btn-success" id="btnSave">
+                Save
+              </div>
+              <div class="btn btn-primary" id="addColor">
+                Tag
+              </div>
+            </form>
+
           </div>
-          <form action="/tags/add" method="POST">
-            <div class="form-group">
-              <input type="text" class="form-control" name="title" placeholder="Title" autofocus>
-            </div>
-            <div class="form-group">
-              <textarea name="contents" class="form-control" rows="2" placeholder="content" id="result"></textarea>
-            </div>
-            <div class="form-group">
-              <label for="selectedColor">Proximo color de etiqueta</label>
-              <input type="color" name="selectedColor" id="selectedColor" class="form-control" placeholder="#ff0000"
-                value="#ff0000">
-            </div>
-            <button class="btn btn-success">
-              Save
-            </button>
-            <div class="btn btn-primary" id="addColor">
-            Tag
-          </div>
-          </form>
-          
         </div>
 
 
       </div>
+      <div class="row">
+        <div class="card">
+          <div class="card-body">
+            <form action="/addtag" method="POST">
+            <div class="form-group">
+              <div class="form-group">
+                <label for="tagscollection">Tags added</label>
+                <select multiple class="form-control" name="tagscollection" id="tagscollection">
+                  {{#each tags as |tag|}}
+                    <option style="color: {{tag.color}};">{{tag.stamp}} {{tag.id_cat_tag}} {{tag.sentence}}</option>
+                  {{/each}}
+                </select>
+              </div>
+            </div>
+            
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
 <script src="/js/interviews/watch.js">
 </script>
