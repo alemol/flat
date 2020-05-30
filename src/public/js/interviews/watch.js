@@ -1,9 +1,16 @@
 
 var endSpan;
-var tags = [];
+var newTags = [];
+var eliminatedtags=[];
 var idInterview;
 function getButtonSave() {
   return document.getElementById("btnSave")
+}
+function AJAXrequest(method,objectToSend,objectName,route){
+  var conection = new XMLHttpRequest();
+  conection.open(method, route, true);
+  conection.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  conection.send(objectName+'=' + encodeURIComponent(JSON.stringify(objectToSend)));
 }
 function getOptCategory() {
   return document.getElementById("optCategory");
@@ -23,20 +30,25 @@ function getButton() {
 function getColor() {
   return document.getElementById("selectedColor");
 }
-function getSelectedText(e) {
-  getResultArea().innerHTML = window.getSelection().toString();
-  endSpan = e.srcElement;
+function getTagsCollections(){
+  return document.getElementById("tagscollection");
 }
+function getFullWatch(){
+  return document.getElementById("fullWatch");
+}
+function getSelectedText(eventArgs) {
+  getResultArea().innerHTML = window.getSelection().toString();
+  endSpan = eventArgs.srcElement;
+}
+
 function reProcessText() {
-
-  const style = '<span style="background:' + getColor().value + '" name="labaled">';
+  var html_optCategory = getOptCategory();
   const selected = getResultArea().value;
-  let idCatTag = getOptCategory().options[getOptCategory().selectedIndex].text;
-  const index = getOptCategory().selectedIndex;
-  let color = "";
-  color = getOptCategory().options[index].value;
+  const idCatTag = html_optCategory.options[html_optCategory.selectedIndex].text;
+  const index = html_optCategory.selectedIndex;
+  let color = html_optCategory.options[index].value;
 
-  if (selected == '' || getColor().value == '#ffffff' || endSpan == null || endSpan.childNodes.length > 1) {
+  if (selected == '' || getColor().value == '#ffffff' || endSpan.childNodes.length > 1|| endSpan == null) {
     return;
   }
   if (idCatTag == "Add new") {
@@ -47,42 +59,32 @@ function reProcessText() {
     idCatTag = newtitle;
     color = getColor().value;
   }
-
-
+  var newtag = document.createElement('span');
+  newtag.style.backgroundColor = color;
+  newtag.setAttribute('name',"labeled");
+  newtag.innerText=selected;
   let idStamp_span = endSpan.id.substring(4);
-  let fullSpan = endSpan.innerHTML;
-  let output = fullSpan.replace(selected, style + selected + "</span>");
-  endSpan.innerHTML = output;
-
-  /* if(tags.map((v)=>v.category).find((x)=>x==idCatTag)!=undefined){
-    return;
-  } */
-
-  tags.push({ id_cat_tag: idCatTag, idDialogInterview: idInterview, stamp: idStamp_span, sentence: selected });
-  let tagscollection = document.getElementById("tagscollection");
+  let fullSpan = endSpan.innerText.split(selected);
+  endSpan.innerText = fullSpan[0];
+  endSpan.appendChild(newtag);
+  endSpan.innerHTML = endSpan.innerHTML+fullSpan[1];
+  newTags.push({ id_cat_tag: idCatTag, idDialogInterview: idInterview, stamp: idStamp_span, sentence: selected,color:color });
+  let tagscollection = getTagsCollections();
   var opt = document.createElement("option");
-
   opt.style.color = color;
   opt.innerText = idStamp_span + " " + idCatTag + " " + selected.substring(0, 10);
   tagscollection.appendChild(opt);
-
-  if(getOptCategory().options[getOptCategory().selectedIndex].text=="Add new"){
-    console.log("hola");
+  if(html_optCategory.options[html_optCategory.selectedIndex].text=="Add new"){
     let newColorR = Math.round(Math.random()*250+1);
     let newColorG = Math.round(Math.random()*250+1);
     let newColorB = Math.round(Math.random()*250+1);
     getColor().value= '#'+newColorR.toString('16')+newColorG.toString('16')+newColorB.toString('16');
-    }
+  }
+  addEventsToTags();
 }
 
 function save() {
-  sendTagsToServer();
-}
-function sendTagsToServer() {
-  var conection = new XMLHttpRequest();
-  conection.open("POST", '/interviews/addTag', true);
-  conection.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  conection.send('tags=' + encodeURIComponent(JSON.stringify(tags)));
+  AJAXrequest('POST',newTags,'tags','/interviews/addTag');
 }
 
 function category_changed() {
@@ -90,15 +92,13 @@ function category_changed() {
   if (title != null) {
     title.parentNode.removeChild(title);
   }
-
   var opt_html = getOptCategory();
   var color_html = getColor();
   const index = opt_html.selectedIndex;
   const color = opt_html.options[index].value;
   if (color == "add new") {
+    color_html.disabled='';
     color_html.value = '#ffffff';
-
-    color_html.disabled = 'false';
     var frmMenu_html = document.getElementById('frmAddTagMenu');
     var newElement = document.createElement("input");
     newElement.setAttribute("type", "text");
@@ -116,8 +116,85 @@ function category_changed() {
   color_html.disabled = 'true';
   color_html.value = color;
 }
-function addEvents(html_Button_Save, html_Button, html_spans, html_optCategory) {
+function obtainMousePos(html_e, eva) {
+  var ClientRect = html_e.getBoundingClientRect();
+	return { 
+	x: Math.round(eva.clientX - ClientRect.left),
+  y: Math.round(eva.clientY - ClientRect.top)
+  }
+}
+function addEventsToTags(){
+  var spans = document.getElementsByName('labeled');
+  for (let index = 0; index < spans.length; index++) {
+    const span = spans[index];
+    span.onclick=null;
+    span.onclick=deployMenu;
+  }
+}
+function deployMenu(eventArgs){
+  var menu= document.getElementById('fmenu');
+  if(menu!=null){
+    menu.remove();
+    return;
+  }
+  const x = eventArgs.screenX;
+  const y = eventArgs.screenY;
+  const xp = eventArgs.x;
+  const yp = eventArgs.y;
+  console.log(x+","+y);
+  console.log(xp+","+yp); 
+  var mousePosition = obtainMousePos(eventArgs.srcElement,eventArgs);
+  console.log(mousePosition.x+" "+mousePosition.y);
+  var menu = document.createElement('div');
+  menu.style.top = mousePosition.y.toString()+'px';
+  menu.style.left = mousePosition.x.toString()+'px';
+  menu.className = "floatingMenu";
+  menu.id='fmenu';
+  var btnRemover =document.createElement('div');
+  var btnChangeCategory = document.createElement('div');
 
+  menu.onmouseleave =()=> menu.remove();
+  btnRemover.onclick= ()=>{
+    let text = eventArgs.srcElement.parentNode.innerHTML.split("<span");
+    const init = text[0];
+    const end = text[1].split("</span>")[1];
+    let middle = eventArgs.srcElement.innerText;
+    let stamp = eventArgs.srcElement.parentNode.id.substring(4);
+    eventArgs.srcElement.parentNode.innerHTML = init+middle+end;
+    var tagscollection = document.getElementById('tagscollection');
+    for (let index = 0; index < tagscollection.length; index++) {
+      const tag = tagscollection[index];
+      if(tag.innerText.split(" ")[0]==stamp){
+        tag.remove();
+        break;
+      }
+    }
+    for (let index = 0; index < newTags.length; index++) {
+      const tag = newTags[index];
+      if(tag.stamp==stamp){
+        newTags.splice(index,1);
+        break;
+      }
+    }
+    AJAXrequest('POST',{stamp:stamp,idDialogInterview:idInterview},'tag','/interviews/deleteTag');
+    btnRemover.parentElement.remove();
+  } 
+  btnRemover.innerText='Delete';
+  btnRemover.className='btn btn-danger';
+  btnChangeCategory.innerText= 'Change category';
+  btnChangeCategory.className= 'btn btn-secondary';
+  btnChangeCategory.inherText ='Change category';
+  btnChangeCategory.onclick =()=>{
+
+  }
+  //menu.appendChild(btnChangeCategory);
+  menu.appendChild(btnRemover);
+  console.log(getFullWatch());
+  eventArgs.srcElement.appendChild(menu);
+  //getFullWatch().appendChild(menu);
+}
+function addEvents(html_Button_Save, html_Button, html_spans, html_optCategory) {
+  
   html_Button.addEventListener("click", reProcessText);
   html_Button_Save.addEventListener("click", save);
   let eventos = ["mousedown", "mouseup"];
@@ -145,19 +222,19 @@ function addEvents(html_Button_Save, html_Button, html_spans, html_optCategory) 
           const element = opt[key];
             if(element.textContent==category){
               color=element.value;
-              //console.log(color);
               break;
             }
           
         }
-        //console.log(category+" "+sentence+" "+color);
         span = document.getElementById("line"+stamp);
         span.innerHTML = span.innerHTML.replace(sentence,'<span style="background: '+color+ '" name="labeled">'+sentence+'</span>');
         
       }
 
     });
+    addEventsToTags();
   };
+  
 }
 addEvents(getButtonSave(), getButton(), getSpansIntake(), getOptCategory());
 idInterview = document.getElementById('IdItrviewHolder').innerHTML;

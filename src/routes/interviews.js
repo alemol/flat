@@ -21,21 +21,41 @@ router.get('/watch/:id',async (req,res)=>{
       tag.color = categories.find(e=>e.id_cat_tag==tag.id_cat_tag).color;
       tag.id_cat_tag = categories.find(e=>e.id_cat_tag==tag.id_cat_tag).title;
    });
-   console.log(tags);
+   //console.log(tags);
    res.render('interviews/watch',{interview:aggregate(consultinterview),idInterview:id,categories:consultCategories,tags:tags}); 
 });
 router.post('/addTag',async (req,res)=>{
    const id_cat_tags=await pool.query('select id_cat_tag,title from cat_tags');
-   var tags =[];
-   tags.push(id_cat_tags);
-   tags = tags[0];
+   var categories =[];
+   categories.push(id_cat_tags);
+   categories = categories[0];
    const recibed = JSON.parse(req.body.tags);
 
    await recibed.forEach((element) => {
-      element.id_cat_tag = tags.find((e)=>e.title==element.id_cat_tag).id_cat_tag;
       console.log(element);
+      var category = categories.find((e)=>e.title.toLowerCase()==element.id_cat_tag.toLowerCase());
+      //console.log(category);   
+      if(category==undefined){
+         pool.query('INSERT INTO cat_tags set ?',[{title:element.id_cat_tag,color:element.color}]);
+         return;
+      }
+      element.id_cat_tag = category.id_cat_tag;
+      delete element.color;
       pool.query('insert into tagged_process set ?',[element]);
    });
+   res.status(200);
+});
+router.post('/deleteTag',async (req,res)=>{
+   console.log('in method');
+   var tag = JSON.parse(req.body.tag);
+   console.log(tag);
+   var findetag =await pool.query(`select stamp from tagged_process where stamp = ${tag.stamp} and idDialogInterview =${tag.idDialogInterview}`);
+   if(findetag.length==0||findetag==undefined){
+      console.log('no data matches');
+      return;
+   }
+   await pool.query(`delete from tagged_process where stamp = ${tag.stamp} and idDialogInterview = ${tag.idDialogInterview}` );
+
 });
 function aggregate(consult){
    var out=[];
