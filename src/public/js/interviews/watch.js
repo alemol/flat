@@ -1,4 +1,4 @@
-
+//@ts-check
 var endSpan;
 var newTags = [];
 var eliminatedtags=[];
@@ -40,20 +40,23 @@ function getSelectedText(eventArgs) {
   getResultArea().innerHTML = window.getSelection().toString();
   endSpan = eventArgs.srcElement;
 }
-
 function reProcessText() {
   var html_optCategory = getOptCategory();
-  const selected = getResultArea().value;
-  const idCatTag = html_optCategory.options[html_optCategory.selectedIndex].text;
-  const index = html_optCategory.selectedIndex;
+  var selected = getResultArea().value;
+  var idCatTag = html_optCategory.options[html_optCategory.selectedIndex].text;
+  var index = html_optCategory.selectedIndex;
   let color = html_optCategory.options[index].value;
-
   if (selected == '' || getColor().value == '#ffffff' || endSpan.childNodes.length > 1|| endSpan == null) {
+    console.log(selected);
+    console.log(getColor().value);
+    console.log(endSpan==null);
+    console.log(endSpan.childNodes.length);
     return;
   }
   if (idCatTag == "Add new") {
     let newtitle = document.getElementById("inpTitle").value;
-    if (newtitle == "" || newtitle == null) {
+    
+    if (newtitle == "" || newtitle == null || newtitle.includes(' ')) {
       return;
     }
     idCatTag = newtitle;
@@ -78,7 +81,7 @@ function reProcessText() {
     let newColorR = Math.round(Math.random()*250+1);
     let newColorG = Math.round(Math.random()*250+1);
     let newColorB = Math.round(Math.random()*250+1);
-    getColor().value= '#'+newColorR.toString('16')+newColorG.toString('16')+newColorB.toString('16');
+    getColor().value= '#'+newColorR.toString(16)+newColorG.toString(16)+newColorB.toString(16);
   }
   addEventsToTags();
 }
@@ -145,6 +148,7 @@ function deployMenu(eventArgs){
   console.log(xp+","+yp); 
   var mousePosition = obtainMousePos(eventArgs.srcElement,eventArgs);
   console.log(mousePosition.x+" "+mousePosition.y);
+  // @ts-ignore
   var menu = document.createElement('div');
   menu.style.top = mousePosition.y.toString()+'px';
   menu.style.left = mousePosition.x.toString()+'px';
@@ -162,9 +166,12 @@ function deployMenu(eventArgs){
     let stamp = eventArgs.srcElement.parentNode.id.substring(4);
     eventArgs.srcElement.parentNode.innerHTML = init+middle+end;
     var tagscollection = document.getElementById('tagscollection');
+    // @ts-ignore
     for (let index = 0; index < tagscollection.length; index++) {
       const tag = tagscollection[index];
+      // @ts-ignore
       if(tag.innerText.split(" ")[0]==stamp){
+        // @ts-ignore
         tag.remove();
         break;
       }
@@ -217,18 +224,23 @@ function addEvents(html_Button_Save, html_Button, html_spans, html_optCategory) 
         sentence = content.split(" ").slice(2).reduce(function (pv, cv) { return pv + " " + cv; });
         category = content.split(" ")[1];
         var color = "";
+        // @ts-ignore
         var opt = getOptCategory().options;
+        console.log("elemento categoria: "+category);
         for (const key in opt) {
           const element = opt[key];
-            if(element.textContent==category){
+          //console.log("elemento opt: "+element.textContent);
+            if(element.textContent.toLowerCase()==category.toLowerCase()){
+              //console.log(element.textContent+" == "+category);
               color=element.value;
               break;
             }
-          
         }
-        span = document.getElementById("line"+stamp);
+        var span = document.getElementById("line"+stamp);
+        /* console.log(span);
+        console.log(sentence+" "+color); */
+
         span.innerHTML = span.innerHTML.replace(sentence,'<span style="background: '+color+ '" name="labeled">'+sentence+'</span>');
-        
       }
 
     });
