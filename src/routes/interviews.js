@@ -10,7 +10,6 @@ router.get('/', async (req, res) => {
 });
 router.get('/watch/:id', async (req, res) => {
    const { id } = req.params;
-
    const consultinterview = await pool.query('select * from austenriggs.dialoginterviews where idInterview = ? order by stamp', [id]);
    const consultCategories = await pool.query('select id_cat_tag,title,color from cat_tags');
    var categories = [];
@@ -25,6 +24,7 @@ router.get('/watch/:id', async (req, res) => {
    res.render('interviews/watch', { interview: aggregate(consultinterview), idInterview: id, categories: consultCategories, tags: tags });
 });
 router.post('/addTag', async (req, res) => {
+   console.log('Añadiendo');
    const id_cat_tags = await pool.query('select id_cat_tag,title from cat_tags');
    var categories = [];
    categories.push(id_cat_tags);
@@ -48,18 +48,20 @@ router.post('/addTag', async (req, res) => {
          element.id_cat_tag = category.id_cat_tag;
       }
       delete element.color;
+      console.log('elemento transformado:');
+      console.log(element);
       var rows = await pool.query(`select * from tagged_process where idDialogInterview = ${element.idDialogInterview} and stamp = ${element.stamp}`);
       if (rows.length == 0 ||rows == undefined) {
-         console.log('no hay filas o estan indefinidas');
+         console.log('no hay filas o estan indefinidas, insertando nuevo tag');
          pool.query('insert into tagged_process set ?', [element]);
          return;
       } 
          console.log('existe mas de una fila'); 
    });
-   res.status(200);
+   res.send('completado');
 });
 router.post('/deleteTag', async (req, res) => {
-   console.log('in method');
+   console.log('Borrando');
    var tag = JSON.parse(req.body.tag);
    console.log(tag);
    var findetag = await pool.query(`select stamp from tagged_process where stamp = ${tag.stamp} and idDialogInterview =${tag.idDialogInterview}`);
@@ -68,7 +70,7 @@ router.post('/deleteTag', async (req, res) => {
       return;
    }
    await pool.query(`delete from tagged_process where stamp = ${tag.stamp} and idDialogInterview = ${tag.idDialogInterview}`);
-
+   res.sendStatus(200);
 });
 function aggregate(consult) {
    var out = [];

@@ -6,11 +6,16 @@ var idInterview;
 function getButtonSave() {
   return document.getElementById("btnSave")
 }
-function AJAXrequest(method,objectToSend,objectName,route){
-  var conection = new XMLHttpRequest();
+var conection;
+function AJAXrequest(method,objectToSend,objectName,route,action=null){
+  conection = new XMLHttpRequest();
+  if(action!=null){
+  conection.onreadystatechange =action(conection);
+  }
   conection.open(method, route, true);
   conection.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   conection.send(objectName+'=' + encodeURIComponent(JSON.stringify(objectToSend)));
+  console.log("estado en metodo= "+conection.readyState);
 }
 function getOptCategory() {
   return document.getElementById("optCategory");
@@ -135,28 +140,17 @@ function addEventsToTags(){
   }
 }
 function deployMenu(eventArgs){
-  var menu= document.getElementById('fmenu');
-  if(menu!=null){
-    menu.remove();
-    return;
-  }
+  DeletMenuIfExists();
   const x = eventArgs.screenX;
-  const y = eventArgs.screenY;
-  const xp = eventArgs.x;
-  const yp = eventArgs.y;
-  console.log(x+","+y);
-  console.log(xp+","+yp); 
+  const y = eventArgs.y;
+
   var mousePosition = obtainMousePos(eventArgs.srcElement,eventArgs);
   console.log(mousePosition.x+" "+mousePosition.y);
   // @ts-ignore
   var menu = document.createElement('div');
-  menu.style.top = mousePosition.y.toString()+'px';
-  menu.style.left = mousePosition.x.toString()+'px';
   menu.className = "floatingMenu";
   menu.id='fmenu';
   var btnRemover =document.createElement('div');
-  var btnChangeCategory = document.createElement('div');
-
   menu.onmouseleave =()=> menu.remove();
   btnRemover.onclick= ()=>{
     let text = eventArgs.srcElement.parentNode.innerHTML.split("<span");
@@ -188,20 +182,22 @@ function deployMenu(eventArgs){
   } 
   btnRemover.innerText='Delete';
   btnRemover.className='btn btn-danger';
-  btnChangeCategory.innerText= 'Change category';
-  btnChangeCategory.className= 'btn btn-secondary';
-  btnChangeCategory.inherText ='Change category';
-  btnChangeCategory.onclick =()=>{
-
-  }
-  //menu.appendChild(btnChangeCategory);
   menu.appendChild(btnRemover);
-  console.log(getFullWatch());
-  eventArgs.srcElement.appendChild(menu);
-  //getFullWatch().appendChild(menu);
+  var root =document.getElementById('root');
+  root.appendChild(menu);
+  root.style.position="fixed";
+  root.style.top=y+"px";
+  root.style.left=x+"px";
+}
+function DeletMenuIfExists(){
+    var menu=document.getElementById("fmenu");
+    if(menu!=null){
+      menu.remove();
+    }
 }
 function addEvents(html_Button_Save, html_Button, html_spans, html_optCategory) {
-  
+  document.addEventListener("scroll",DeletMenuIfExists);
+  document.getElementById("contTextArea").addEventListener("scroll",DeletMenuIfExists);
   html_Button.addEventListener("click", reProcessText);
   html_Button_Save.addEventListener("click", save);
   let eventos = ["mousedown", "mouseup"];
@@ -226,20 +222,14 @@ function addEvents(html_Button_Save, html_Button, html_spans, html_optCategory) 
         var color = "";
         // @ts-ignore
         var opt = getOptCategory().options;
-        console.log("elemento categoria: "+category);
         for (const key in opt) {
           const element = opt[key];
-          //console.log("elemento opt: "+element.textContent);
             if(element.textContent.toLowerCase()==category.toLowerCase()){
-              //console.log(element.textContent+" == "+category);
               color=element.value;
               break;
             }
         }
         var span = document.getElementById("line"+stamp);
-        /* console.log(span);
-        console.log(sentence+" "+color); */
-
         span.innerHTML = span.innerHTML.replace(sentence,'<span style="background: '+color+ '" name="labeled">'+sentence+'</span>');
       }
 

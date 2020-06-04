@@ -22,20 +22,17 @@ body {
     overflow:auto;
     margin-bottom: 15px;
 }
-span.yellow::selection{
+span.yellowI::selection{
     background-color: yellow;
     color: white;
 }
-
 div>div>span>span:hover{
     cursor: pointer;
     border: 1px dotted #fa0;
     border-radius: 5px;
     box-shadow: 0px 0px 20px #aaa;
 }
-.floatingMenu{
-    position: absolute;   
-    z-index: 0;
-
+.sectionInterview{
+    height:35rem;
 }
 
