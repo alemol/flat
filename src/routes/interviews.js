@@ -1,12 +1,18 @@
+
 const express = require('express');
 const router = express.Router();
 
 const pool = require("../databaseInterviews");
 
-router.get('/', async (req, res) => {
-   const Interviews = await pool.query('SELECT idInterview,idSubject,idInterviewer FROM austenriggs.interviews order by idInterview');
-
-   res.render('interviews/all', { Interviews });
+router.get('/:order', async (req, res) => {
+   let query = 'SELECT idInterview,idSubject,idInterviewer FROM austenriggs.interviews order by ';
+   const {order} = req.params;
+   var endq = ((order=='Subject')? 'idSubject': (order=='Interviewer')? 'idInterviewer': 'idInterview');
+   console.log(query+endq);
+   const Interviews = await pool.query(query+endq);
+   const Cat = await pool.query('select title from cat_tags');
+   console.log(Cat);
+   res.render('interviews/all', {Interviews:Interviews,Categories:Cat});
 });
 router.get('/watch/:id', async (req, res) => {
    const { id } = req.params;
@@ -78,9 +84,9 @@ function aggregate(consult) {
       let element = consult[key];
       let _person = "";
       if (consult[key].typePerson == 1) {
-         _person = "S";
-      } else {
          _person = "I";
+      } else {
+         _person = "S";
       }
       out.push({ content: element.content, person: _person, line: element.stamp });
    }
