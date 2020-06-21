@@ -24,16 +24,16 @@
                             Download
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownDown">
-                            <a class="dropdown-item" href="/interviews/Download/AllJSON">All as JSON</a>
-                            <a class="dropdown-item" href="/interviews/Download/AllXML">All as XML</a>
+                            <a class="dropdown-item" href="/interviews/download/allJSON">All Interviews as JSON (clean)</a>
+                            <a class="dropdown-item" href="/interviews/download/allTags">All tags as JSON</a>
                             <div class="dropdown-divider"></div>
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownDownFiltered" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Filter by categorie
+                                All from category
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownDownFiltered">
                                 {{#each Categories as |category|}}
-                                <a class="dropdown-item" href="/interviews/Download/Fcategory/{{category.title}}">{{category.title}}</a>
+                                <a class="dropdown-item" href="/interviews/Download/Fcategory/{{category.id_cat_tag}}">{{category.title}}</a>
                                 {{else}}
                                 <a class="dropdown-item" href="#">No Categories</a>
                                 {{/each}}

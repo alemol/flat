@@ -8,6 +8,8 @@ const flash =require('connect-flash');
 const session=require('express-session');
 const MySQLStore=  require('express-mysql-session')(session);
 const {database}= require('./keysInterviews');
+
+ 
 //Setings
 app.set('port',process.env.PORT || 4000);
 app.set('views',path.join(__dirname,'views'));
@@ -42,6 +44,7 @@ app.use(require('./routes'));
 app.use(require('./routes/authentication'));
 app.use('/tags',require('./routes/tags')); 
 app.use('/interviews',require('./routes/interviews'));
+app.use('/interviews/download',require('./routes/download'));
 //Public
 app.use(express.static(path.join(__dirname,'public')));
 

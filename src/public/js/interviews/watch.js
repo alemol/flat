@@ -1,21 +1,11 @@
-//@ts-check
+
 var endSpan;
 var newTags = [];
-var eliminatedtags=[];
+var eliminatedtags = [];
 var idInterview;
+idInterview = document.getElementById('IdItrviewHolder').innerHTML;
 function getButtonSave() {
   return document.getElementById("btnSave")
-}
-var conection;
-function AJAXrequest(method,objectToSend,objectName,route,action=null){
-  conection = new XMLHttpRequest();
-  if(action!=null){
-  conection.onreadystatechange =action(conection);
-  }
-  conection.open(method, route, true);
-  conection.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  conection.send(objectName+'=' + encodeURIComponent(JSON.stringify(objectToSend)));
-  console.log("estado en metodo= "+conection.readyState);
 }
 function getOptCategory() {
   return document.getElementById("optCategory");
@@ -35,64 +25,110 @@ function getButton() {
 function getColor() {
   return document.getElementById("selectedColor");
 }
-function getTagsCollections(){
+function getTagsCollections() {
   return document.getElementById("tagscollection");
 }
-function getFullWatch(){
+function getFullWatch() {
   return document.getElementById("fullWatch");
 }
 function getSelectedText(eventArgs) {
-  getResultArea().innerHTML = window.getSelection().toString();
+  var text = window.getSelection().toString();
+  text = text.trim();
+  getResultArea().innerHTML = text;
   endSpan = eventArgs.srcElement;
 }
 function reProcessText() {
+  //globals ref
+  var selected = getResultArea().value.trim();
   var html_optCategory = getOptCategory();
-  var selected = getResultArea().value;
   var idCatTag = html_optCategory.options[html_optCategory.selectedIndex].text;
-  var index = html_optCategory.selectedIndex;
-  let color = html_optCategory.options[index].value;
-  if (selected == '' || getColor().value == '#ffffff' || endSpan.childNodes.length > 1|| endSpan == null) {
-    console.log(selected);
-    console.log(getColor().value);
-    console.log(endSpan==null);
-    console.log(endSpan.childNodes.length);
+  let _color = html_optCategory.options[html_optCategory.selectedIndex].value;
+
+  //verification
+  if (selected == '' || getColor().value == '#ffffff' || endSpan.childNodes.length > 1 || endSpan == null) {
     return;
   }
   if (idCatTag == "Add new") {
     let newtitle = document.getElementById("inpTitle").value;
-    
     if (newtitle == "" || newtitle == null || newtitle.includes(' ')) {
       return;
     }
     idCatTag = newtitle;
-    color = getColor().value;
+    _color = getColor().value;
   }
+
+  //constants
+  const stamp = endSpan.id.substring(4);
+  const category = idCatTag;
+  const color = _color;
+  //const unmodifiedText = endSpan.innerText.trim();
+  const selectedText = selected.trim();
+
+  addNewTag(stamp, category, color, selectedText, endSpan);
+
+  //Adding to lists
+  addTagTocollection(category, idInterview, stamp, selectedText, color);
+  //If new category
+  if (html_optCategory.options[html_optCategory.selectedIndex].text == "Add new") {
+    getColor().value = '#' + randomColor();
+  }
+}
+function addNewTag(stamp, category, color, selectedText, srcElement) {
+  var span = createSpanForTaggedText(selectedText, color);
+  var firtsPart = document.createElement("span");
+  var lastPart = document.createElement("span");
+  var unmodifiedText = srcElement.innerText.trim().split(selectedText);
+  firtsPart.innerText = unmodifiedText[0];
+  lastPart.innerText = unmodifiedText[1];
+  srcElement.innerHTML = "";
+  if (unmodifiedText[0] != "") {
+    srcElement.appendChild(firtsPart);
+  }
+  srcElement.appendChild(span);
+  if (unmodifiedText[1] != "") {
+    srcElement.appendChild(lastPart);
+  }
+  if (category!=null&&category!="") {
+    document.getElementById('tagscollection').appendChild(createOpt(stamp, category, selectedText.substring(0, 20), color));
+  }
+}
+function addTagTocollection(cat, idInt, _stamp, text, _color) {
+  newTags.push({ id_cat_tag: cat, idDialogInterview: idInt, stamp: _stamp, sentence: text, color: _color });
+}
+function randomColor() {
+  let color = Math.round(Math.random() * 250 + 1);
+  return color.toString(16) + color.toString(16) + color.toString(16);
+}
+function createSpanForTaggedText(text, _color) {
   var newtag = document.createElement('span');
-  newtag.style.backgroundColor = color;
-  newtag.setAttribute('name',"labeled");
-  newtag.innerText=selected;
-  let idStamp_span = endSpan.id.substring(4);
-  let fullSpan = endSpan.innerText.split(selected);
-  endSpan.innerText = fullSpan[0];
-  endSpan.appendChild(newtag);
-  endSpan.innerHTML = endSpan.innerHTML+fullSpan[1];
-  newTags.push({ id_cat_tag: idCatTag, idDialogInterview: idInterview, stamp: idStamp_span, sentence: selected,color:color });
-  let tagscollection = getTagsCollections();
+  newtag.style.backgroundColor = _color;
+  newtag.setAttribute('name', "labeled");
+  newtag.className = "lblSpan";
+  newtag.innerText = text;
+  newtag.onclick = deployMenu;
+  return newtag;
+}
+function createOpt(stamp, idCatTag, text, color) {
   var opt = document.createElement("option");
   opt.style.color = color;
-  opt.innerText = idStamp_span + " " + idCatTag + " " + selected.substring(0, 10);
-  tagscollection.appendChild(opt);
-  if(html_optCategory.options[html_optCategory.selectedIndex].text=="Add new"){
-    let newColorR = Math.round(Math.random()*250+1);
-    let newColorG = Math.round(Math.random()*250+1);
-    let newColorB = Math.round(Math.random()*250+1);
-    getColor().value= '#'+newColorR.toString(16)+newColorG.toString(16)+newColorB.toString(16);
-  }
-  addEventsToTags();
+  opt.innerText = stamp + " " + idCatTag + " " + text;
+  return opt;
 }
 
 function save() {
-  AJAXrequest('POST',newTags,'tags','/interviews/addTag');
+  AjaxRequest("POST", '/interviews/addTag', newTags, (_) => window.location.href = 'http://localhost:4000/interviews/watch/' + idInterview);
+}
+function AjaxRequest(method, purl, package, fun) {
+  let xhr = new XMLHttpRequest();
+  xhr.open(method, purl, true);
+  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      fun(this.response);
+    }
+  };
+  var data = JSON.stringify(package);
+  xhr.send(data);
 }
 
 function category_changed() {
@@ -105,7 +141,7 @@ function category_changed() {
   const index = opt_html.selectedIndex;
   const color = opt_html.options[index].value;
   if (color == "add new") {
-    color_html.disabled='';
+    color_html.disabled = '';
     color_html.value = '#ffffff';
     var frmMenu_html = document.getElementById('frmAddTagMenu');
     var newElement = document.createElement("input");
@@ -124,80 +160,64 @@ function category_changed() {
   color_html.disabled = 'true';
   color_html.value = color;
 }
-function obtainMousePos(html_e, eva) {
-  var ClientRect = html_e.getBoundingClientRect();
-	return { 
-	x: Math.round(eva.clientX - ClientRect.left),
-  y: Math.round(eva.clientY - ClientRect.top)
-  }
-}
-function addEventsToTags(){
-  var spans = document.getElementsByName('labeled');
-  for (let index = 0; index < spans.length; index++) {
-    const span = spans[index];
-    span.onclick=null;
-    span.onclick=deployMenu;
-  }
-}
-function deployMenu(eventArgs){
+function deployMenu(eventArgs) {
   DeletMenuIfExists();
   const x = eventArgs.screenX;
   const y = eventArgs.y;
-
-  var mousePosition = obtainMousePos(eventArgs.srcElement,eventArgs);
-  console.log(mousePosition.x+" "+mousePosition.y);
-  // @ts-ignore
+  var root = document.getElementById('root');
+  root.appendChild(createMenu());
+  root.style.position = "fixed";
+  root.style.top = y + "px";
+  root.style.left = x + "px";
+}
+function createMenu() {
   var menu = document.createElement('div');
   menu.className = "floatingMenu";
-  menu.id='fmenu';
-  var btnRemover =document.createElement('div');
-  menu.onmouseleave =()=> menu.remove();
-  btnRemover.onclick= ()=>{
-    let text = eventArgs.srcElement.parentNode.innerHTML.split("<span");
-    const init = text[0];
-    const end = text[1].split("</span>")[1];
-    let middle = eventArgs.srcElement.innerText;
-    let stamp = eventArgs.srcElement.parentNode.id.substring(4);
-    eventArgs.srcElement.parentNode.innerHTML = init+middle+end;
-    var tagscollection = document.getElementById('tagscollection');
-    // @ts-ignore
-    for (let index = 0; index < tagscollection.length; index++) {
-      const tag = tagscollection[index];
-      // @ts-ignore
-      if(tag.innerText.split(" ")[0]==stamp){
-        // @ts-ignore
-        tag.remove();
-        break;
-      }
-    }
-    for (let index = 0; index < newTags.length; index++) {
-      const tag = newTags[index];
-      if(tag.stamp==stamp){
-        newTags.splice(index,1);
-        break;
-      }
-    }
-    AJAXrequest('POST',{stamp:stamp,idDialogInterview:idInterview},'tag','/interviews/deleteTag');
-    btnRemover.parentElement.remove();
-  } 
-  btnRemover.innerText='Delete';
-  btnRemover.className='btn btn-danger';
-  menu.appendChild(btnRemover);
-  var root =document.getElementById('root');
-  root.appendChild(menu);
-  root.style.position="fixed";
-  root.style.top=y+"px";
-  root.style.left=x+"px";
+  menu.id = 'fmenu';
+  menu.onmouseleave = () => menu.remove();
+  menu.appendChild(createBtnRemove());
+  return menu;
 }
-function DeletMenuIfExists(){
-    var menu=document.getElementById("fmenu");
-    if(menu!=null){
-      menu.remove();
+function createBtnRemove() {
+  var btnRemover = document.createElement('div');
+  btnRemover.onclick = () => {
+    var span = endSpan.parentNode;
+    var newsentence = "";
+    const stamp = span.id.substring(4);
+    span.childNodes.forEach(childNode => {
+      newsentence += childNode.innerText;
+    });
+    span.innerHTML = newsentence;
+    AjaxRequest("POST", '/interviews/deleteTag', { stamp: stamp, idDialogInterview: idInterview, }, (_) => { });
+    btnRemover.parentElement.remove();
+  }
+  btnRemover.innerText = 'Delete';
+  btnRemover.className = 'btn btn-danger';
+  return btnRemover;
+}
+function DeletMenuIfExists() {
+  var menu = document.getElementById("fmenu");
+  if (menu != null) {
+    menu.remove();
+  }
+}
+function loadTags(tagsinOpt) {
+  //Pasar a un helper de handlebars
+  for (const key in tagsinOpt) {
+    if (tagsinOpt.hasOwnProperty(key)) {
+      const node = tagsinOpt[key];
+      const tag= node.innerText.split(" ");
+      const stamp = tag[0];
+      const color = node.style.color;
+
+      const selectedText = tag.slice(2).reduce((a,c)=>a+" "+c);
+      addNewTag(stamp, null, color, selectedText, document.getElementById('line' + stamp)); 
     }
+  }
 }
 function addEvents(html_Button_Save, html_Button, html_spans, html_optCategory) {
-  document.addEventListener("scroll",DeletMenuIfExists);
-  document.getElementById("contTextArea").addEventListener("scroll",DeletMenuIfExists);
+  document.addEventListener("scroll", DeletMenuIfExists);
+  document.getElementById("contTextArea").addEventListener("scroll", DeletMenuIfExists);
   html_Button.addEventListener("click", reProcessText);
   html_Button_Save.addEventListener("click", save);
   let eventos = ["mousedown", "mouseup"];
@@ -208,35 +228,6 @@ function addEvents(html_Button_Save, html_Button, html_spans, html_optCategory) 
     }
   }
   html_optCategory.addEventListener("click", category_changed);
-  window.onload = () => {
-    let html_tags = document.getElementById('tagscollection');
-    html_tags.childNodes.forEach((opt) => {
-      if (opt.firstChild != null) {
-        let content = opt.textContent;
-        let stamp = 0;
-        stamp = parseInt(content.split(" ")[0]);
-        let category = "";
-        let sentence = "";
-        sentence = content.split(" ").slice(2).reduce(function (pv, cv) { return pv + " " + cv; });
-        category = content.split(" ")[1];
-        var color = "";
-        // @ts-ignore
-        var opt = getOptCategory().options;
-        for (const key in opt) {
-          const element = opt[key];
-            if(element.textContent.toLowerCase()==category.toLowerCase()){
-              color=element.value;
-              break;
-            }
-        }
-        var span = document.getElementById("line"+stamp);
-        span.innerHTML = span.innerHTML.replace(sentence,'<span style="background: '+color+ '" name="labeled">'+sentence+'</span>');
-      }
-
-    });
-    addEventsToTags();
-  };
-  
+  loadTags( document.getElementById('tagscollection'));
 }
 addEvents(getButtonSave(), getButton(), getSpansIntake(), getOptCategory());
-idInterview = document.getElementById('IdItrviewHolder').innerHTML;

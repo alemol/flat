@@ -22,11 +22,11 @@ body {
     overflow:auto;
     margin-bottom: 15px;
 }
-span.yellowI::selection{
+div.yellowI::selection{
     background-color: yellow;
     color: white;
 }
-div>div>span>span:hover{
+.lblSpan:hover{
     cursor: pointer;
     border: 1px dotted #fa0;
     border-radius: 5px;
@@ -36,3 +36,9 @@ div>div>span>span:hover{
     height:35rem;
 }
 
+.submitFilter{
+    background: lightgreen;
+}
+.submitFilter:hover{
+    background: lightsteelblue;
+}
