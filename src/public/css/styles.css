@@ -1,0 +1,44 @@
+
+body {
+    background: #f5f6f5;
+    font-family: 'Oswald',sans-serif;
+}
+.index{
+    width: 100%;
+    height: 100%;
+}
+.masthead{
+    color: white;
+    min-height: 30rem;
+    width: 100%;
+    height: 100%;
+    padding-top: 8rem;
+    background: url('/img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.textarea {
+    background-color: #ffffff;
+    overflow:auto;
+    margin-bottom: 15px;
+}
+div.yellowI::selection{
+    background-color: yellow;
+    color: white;
+}
+.lblSpan:hover{
+    cursor: pointer;
+    border: 1px dotted #fa0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px #aaa;
+}
+.sectionInterview{
+    height:35rem;
+}
+
+.submitFilter{
+    background: lightgreen;
+}
+.submitFilter:hover{
+    background: lightsteelblue;
+}
